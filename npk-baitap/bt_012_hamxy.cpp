@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  long long x, y;
+  cin >> x >> y;
+
+  cout << 5 * x + 2 * y + x * y << endl;
+
+  return 0;
+}

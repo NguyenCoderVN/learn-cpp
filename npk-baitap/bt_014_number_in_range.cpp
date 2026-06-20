@@ -3,6 +3,10 @@
 using namespace std;
 
 int main() {
-  cout << "Hello world!" << endl;
+  long long a, b;
+  cin >> a >> b;
+
+  cout << b - a + 1 << endl;
+
   return 0;
 }
