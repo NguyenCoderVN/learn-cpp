@@ -3,10 +3,11 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-  long long a, b, c;
-  cin >> a >> b >> c;
+  long long N;
+  cin >> N;
 
-  cout << a * b * c << endl;
+  cout << N / 500000 << endl;
+  cout << N % 500000 << endl;
 
   return 0;
 }

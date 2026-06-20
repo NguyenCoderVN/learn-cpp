@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-  long long a, b;
+  int a, b;
   cin >> a >> b;
 
   swap(a, b);
-  cout << 128 * a + 97 * b + 1000;
+  cout << 1ll * 128 * a + 1ll * 97 * b + 1000;
   return 0;
 }

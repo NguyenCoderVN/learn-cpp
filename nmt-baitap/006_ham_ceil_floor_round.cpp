@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  double X;
+  float X;
   cin >> X;
 
   cout << (int)floor(X) << endl;

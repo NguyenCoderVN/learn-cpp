@@ -5,7 +5,6 @@ using namespace std;
 int main() {
   long long N;
   cin >> N;
-
   long long count3 = N / 3;
   long long count5 = N / 5;
   long long count15 = N / 15;
